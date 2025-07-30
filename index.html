@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Alarm Takip Merkezi</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="top">
+                <a href="index.html"><img src="images/logo.png" alt="Account Alarm Merkezi Logosu" class="logo"></a>
+                <div class="customer">
+                    <div class="login">
+                        <a href="http://176.88.203.6:7777/" target="_blank">Bayii Girişi</a>
+                        <a href="http://176.88.203.6:7777/" target="_blank" class="customer-login">Müşteri Girişi</a>
+                    </div>
+                    <div class="phone-number">
+                        <img src="images/phone-call-outline-svgrepo-com.svg" alt="Telefon İkonu" width="15"
+                            height="19.5">
+                        <p>0850 259 3 155</p>
+                    </div>
+                </div>
+            </div>
+            <nav class="menu" aria-label="Ana menü" role="navigation">
+                <div class="mobile-only">
+                                                <img src="images/logo.png" class="mobile-logo" alt="Account Alarm Merkezi Logosu">
+                <span class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="half-line"></span>
+                </span>
+                </div>
+                <div class="menu-links">
+                <a href="index.html" class="link">ANA SAYFA</a>
+                <a href="sirket.html" class="link">ŞİRKET PROFİLİ</a>
+                <a href="sistem.html" class="link">SİSTEM NASIL ÇALIŞIR</a>
+                <a href="bayi.html" class="link">BAYİLİK BAŞVURUSU</a>
+                <a href="dokuman.html" class="link">DÖKÜMANLAR</a>
+                <a href="destek.html" class="link">DESTEK</a>
+                <a href="iletisim.html" class="link">İLETİŞİM</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="slider" aria-label="Tanıtım görselleri slaytı">
+            <div class="container">
+                <div class="slider" role="group" aria-roledescription="Slayt grubu" aria-label="2 görsel">
+                    <div class="slides">
+                        <img src="images/slider1.png" alt="slider image 1" role="group" aria-label="1. slayt">
+                        <img src="images/slider2.jpg" alt="slider image 2" role="group" aria-label="2. slayt">
+                    </div>
+                </div>
+                <div class="slidenav">
+                    <button id="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                </div>
+            </div>
+        </section>
+        <section class="status_icons">
+            <div class="container">
+                <div class="icons">
+                    <div class="iconboxes" role="group" aria-label="Hırsızlık ikonu"><span class="iconspan span1"></span>
+                        <h3>Hırsızlık</h3>
+                    </div>
+                    <div class="iconboxes" role="group" aria-label="Acil sağlık ikonu ikonu"><span class="iconspan span2"></span>
+                        <h3>Acil Sağlık</h3>
+                    </div>
+                    <div class="iconboxes" role="group" aria-label="Yangın ikonu"><span class="iconspan span3"></span>
+                        <h3>Yangın</h3>
+                    </div>
+                    <div class="iconboxes" role="group" aria-label="Alarm ikonu"><span class="iconspan span4"></span>
+                        <h3>Alarm</h3>
+                    </div>
+                    <div class="iconboxes" role="group" aria-label="Gaz Kaçağı ikonu"><span class="iconspan span5"></span>
+                        <h3>Gaz Kaçağı</h3>
+                    </div>
+                    <div class="iconboxes" role="group" aria-label="Su Baskını ikonu"><span class="iconspan span6"></span>
+                        <h3>Su Baskını</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="camera">
+            <div class="container cameracontainer">
+                <div class="textbox">
+                    <article class="left">
+                        <h3>Firmamız Hakkında</h3>
+                        <p>ÇÖZÜMLERİMİZ VE HİZMETLERİMİZ</p>
+                    </article>
+                    <aside class="right">
+                        <p>Kurulduğumuz günden beri en ileri teknolojileri kullanarak siz müşterilerimize en kaliteli
+                            hizmeti sunmak, güvenliğinizi sağlamak, acil sağlık hizmetinde faydalanmanızı sağlamak,
+                            yangın
+                            ve doğal afetlerde en az zararla kurtulmanızı sağlamak, kısacası hayatınızı daha da
+                            kolaylaştırmak için çalışıyoruz.</p>
+                    </aside>
+                </div>
+                <div class="bottom">
+                    <img src="images/camera.jpg" class="camerapic" alt="camera image">
+                </div>
+            </div>
+        </section>
+        <section class="security-types">
+            <div class="container types">
+                <article class="infobox">
+                    <div class="title">
+                        <img src="images/smart-home.png" alt="smart home picture">
+                        <h2>Akıllı Ev</h2>
+                    </div>
+                    <p>
+                        Merkez sistemimizde kullanılan entegre gprs modüller sayesinde alarm sisteminizi uzaktan kurma
+                        ve kapamanın dışında evinizinde elektriğini ve doğalgazı uzaktan açıp kapatabilirsiniz.
+                    </p>
+                </article>
+                <article class="infobox">
+                    <div class="title">
+                        <img src="images/security.png" alt="security icon">
+                        <h2>Güvenlik</h2>
+                    </div>
+                    <p>Account alarm merkezi hırsız alarm sisteminden gelen hırsızlık sinyallerini nereden geldiğini
+                        görüp en ince ayrıntısına kadar ( kapı , balkon , pencere vb. bölgeler ) kullanıcılara ve kolluk
+                        kuvvetlerine en kısa sürede haber verir.</p>
+                </article>
+                <article class="infobox">
+                    <div class="title">
+                        <img src="images/support.png" alt="support image">
+                        <h2>Uzaktan Destek</h2>
+                    </div>
+                    <p>İşinin ehli uzman kadromuz sayesinde yaşadığınız sorunu uzaktan destek vererek sizi yönlendirip
+                        test edebilir ve gerekli işlemleri gerçekleştirebilirsiniz.</p>
+                </article>
+                <article class="infobox">
+                    <div class="title">
+                        <img src="images/emniyetGuvenlik.png" alt="Emniyet ve Güvenlik">
+                        <h2>Emniyet ve Güvenlik</h2>
+                    </div>
+                    <p>Account alarm takip merkezi olarak şifre paneli ve cep telefonunuzdaki acil durum butonları
+                        sayesinde olası bir ihtiyaç anında Ambulans , Polis ve İtfaiye ekiplerine Account alarm
+                        merkezi
+                        üzerinden hızlı birşekilde acil durum sinyali göndermiş olursunuz.</p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="mobile">
+                    <div class="mobile-gallery">
+                        <div class="mobile-gallery-slides">
+                            <img src="images/mobile1.jpg" class="slide active" alt="Image 1">
+                            <img src="images/mobile2.jpg" class="slide" alt="Image 2">
+                            <img src="images/mobile3.jpg" class="slide" alt="Image 3">
+                            <img src="images/mobile4.png" class="slide" alt="Image 4">
+                        </div>
+                        <img src="images/iphone.png" class="phone-frame" alt="Telefon çerçevesi">
+                        <div class="phone-dots">
+                            <span class="phone-dot active" data-index="0"></span>
+                            <span class="phone-dot" data-index="1"></span>
+                            <span class="phone-dot" data-index="2"></span>
+                            <span class="phone-dot" data-index="3"></span>
+                        </div>
+                    </div>
+                    <div class="mobile-text">
+                        <h2>Tek tuşla acil <code>müdahale</code></h2>
+                        <p>Acil durum esnasında ilk yapmanız gereken sadece ihtiyacınız olan ambulans, polis veya
+                            itfaiye
+                            teş
+                            tuşla çağırmak</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <button class="square" aria-label="Sayfanın en üstüne çık">
+        <p><i class="arrow up"></i></p>
+    </button>
+    <footer>
+        <div class="container">
+            <div class="footer-flex">
+                <div class="account" role="region" aria-label="Sosyal medya ve uygulama bağlantıları">
+                    <img src="images/blacklogo.png" class="blacklogo" alt="black logo of account security systems">
+                    <div class="logos">
+                                            <a href="https://www.facebook.com/AccountMerkez/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/account_alarm_merkezi/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="#"><img src="images/googlePlay.png" alt="google play logo"></a>
+                </div>
+                <div class="reach-us" role="region" aria-label="İletişim Bilgileri">
+                    <h2>İletişim Bilgileri</h2>
+                    <p>Adres: Merkezefendi Mah. Mevlana Cad. Tercüman Sitesi Zeytinburnu / İstanbul</p>
+                    <p>Çağrı Merkezi : 0850 259 3 155</p>
+                    <p>E-Mail : info@accountalarmmerkezi.com</p>
+                </div>
+                <div class="page_links" role="navigation" aria-label="Alt menü bağlantıları">
+                    <h2>Sayfa Bağlantılar</h2>
+                    <a href="sirket.html">ŞİRKET PROFİLİ</a>
+                    <a href="sistem.html">SİSTEM NASIL ÇALIŞIR</a>
+                    <a href="bayi.html">BAYİLİK BAŞVURUSU</a>
+                    <a href="dokuman.html">DÖKÜMANLAR</a>
+                    <a href="destek.html">DESTEK</a>
+                    <a href="iletisim.html">İLETİŞİM</a>
+                </div>
+                <div class="reach-us">
+                    <h2>İletişime Geçin</h2>
+                    <p class="peace">Güvenliğiniz ve huzur için</p>
+                    <a href="iletisim.html" target="_blank" class="btn">İLETİŞİME GEÇİN</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <div class="end">
+            <p>© 2020 accountalarmmerkezi.com - Tüm Hakları Saklıdır.</p>
+            <p><a href="#" aria-label="Bu sitenin tasarımı Erkan Kurtcu tarafından yapılmıştır">Design By</a> Erkan Kurtcu</p>
+        </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

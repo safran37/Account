@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İLETİŞİM - Account Alarm Takip Merkezi</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="iletisimstyle.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="top">
+                <a href="index.html"><img src="images/logo.png" alt="Account Alarm Merkezi Logosu" class="logo"></a>
+                <div class="customer">
+                    <div class="login">
+                        <a href="http://176.88.203.6:7777/" target="_blank">Bayii Girişi</a>
+                        <a href="http://176.88.203.6:7777/" target="_blank" class="customer-login">Müşteri Girişi</a>
+                    </div>
+                    <div class="phone-number">
+                        <img src="images/phone-call-outline-svgrepo-com.svg" alt="Telefon İkonu" width="15"
+                            height="19.5">
+                        <p>0850 259 3 155</p>
+                    </div>
+                </div>
+            </div>
+            <nav class="menu" aria-label="Ana menü">
+                <div class="mobile-only">
+                    <img src="images/logo.png" class="mobile-logo" alt="Account Alarm Merkezi Logosu">
+                    <span class="hamburger">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="half-line"></span>
+                    </span>
+                </div>
+                <div class="menu-links">
+                    <a href="index.html" class="link">ANA SAYFA</a>
+                    <a href="sirket.html" class="link">ŞİRKET PROFİLİ</a>
+                    <a href="sistem.html" class="link">SİSTEM NASIL ÇALIŞIR</a>
+                    <a href="bayi.html" class="link">BAYİLİK BAŞVURUSU</a>
+                    <a href="dokuman.html" class="link">DÖKÜMANLAR</a>
+                    <a href="destek.html" class="link">DESTEK</a>
+                    <a href="iletisim.html" class="link" aria-current="page">İLETİŞİM</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main role="main">
+        <div class="container">
+            <section class="sirket-entry">
+                <div class="title">
+                    <h1 class="sirket">İLETİŞİM
+                    </h1>
+                </div>
+            </section>
+            <div class="form-container">
+                <div class="form-section">
+                    <form id="myForm" method="post" novalidate aria-labelledby="formTitle" role="form">
+                        <h2 id="formTitle">İletişime Geç</h2>
+                        <div class="private">
+                            <div class="private-info">
+                                <input type="text" maxlength="50" name="name" id="name" required
+                                    placeholder="İsim Soyisim" aria-required="true" aria-describedby="nameError">
+                                <span class="error-message" id="nameError" aria-live="polite">Bu alan zorunludur.</span>
+                            </div>
+                            <div class="private-info">
+                                <input type="email" maxlength="40" name="email" id="email" required
+                                    placeholder="E-posta Adresi" aria-required="true" aria-describedby="emailError">
+                                <span class="error-message" id="emailError" aria-live="polite">Bu alan
+                                    zorunludur.</span>
+                            </div>
+                        </div>
+                        <input type="text" inputmode="numeric" maxlength="15" pattern="^[0-9]{1,11}$" id="firmaphone"
+                            name="phone" required placeholder="Telefon Numarası " aria-required="true"
+                            aria-describedby="phoneError">
+                        <span class="error-message" id="phoneError" aria-live="polite">Bu alan zorunludur.</span>
+                        <textarea name="Adres" maxlength="200" id="Adres" required placeholder="Adres"
+                            aria-required="true" aria-describedby="adresError"></textarea>
+                        <span class="error-message" id="adresError" aria-live="polite">Bu alan zorunludur.</span>
+                        <input type="submit" id="gonder" value="GÖNDER">
+                        <span class="error-message final" aria-live="polite">Bir veya daha fazla alanda hata bulundu.
+                            Lütfen kontrol edin ve tekrar deneyin.</span>
+                    </form>
+                    <div class="bayibox">
+                        <h2>İletişim Bilgileri</h2>
+                        <div class="infobox">
+                            <h3>Çağrı Merkezi</h3>
+                            <p>0850 259 3 155</p>
+                        </div>
+                        <div class="infobox">
+                            <h3>E-mail</h3>
+                            <p>info@accountalarmmerkezi.com</p>
+                        </div>
+                        <div class="infobox">
+                            <h3>Adres</h3>
+                            <p>Merkezefendi Mah. Mevlana Cad. Tercüman Sitesi Zeytinburnu / İstanbul</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<button class="square" aria-label="Sayfanın en üstüne dön">
+  <p><i class="arrow up" aria-hidden="true"></i></p>
+</button>
+    <footer>
+        <div class="container">
+            <div class="footer-flex">
+                <div class="account" role="region" aria-label="Sosyal medya ve uygulama bağlantıları">
+                    <img src="images/blacklogo.png" class="blacklogo" alt="black logo of account security systems">
+                    <div class="logos">
+<a href="https://www.facebook.com/AccountMerkez/" target="_blank" aria-label="Facebook">
+  <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+</a>
+<a href="https://www.instagram.com/account_alarm_merkezi/" target="_blank" aria-label="Instagram">
+  <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+</a>
+                    </div>
+                    <a href="#"><img src="images/googlePlay.png" alt="google play logo"></a>
+                </div>
+                <div class="reach-us" role="region" aria-label="İletişim Bilgileri">
+                    <h2>İletişim Bilgileri</h2>
+                    <p>Adres: Merkezefendi Mah. Mevlana Cad. Tercüman Sitesi Zeytinburnu / İstanbul</p>
+                    <p>Çağrı Merkezi : 0850 259 3 155</p>
+                    <p>E-Mail : info@accountalarmmerkezi.com</p>
+                </div>
+                <div class="page_links" role="navigation" aria-label="Alt menü bağlantıları">
+                    <h2>Sayfa Bağlantılar</h2>
+                    <a href="sirket.html">ŞİRKET PROFİLİ</a>
+                    <a href="sistem.html">SİSTEM NASIL ÇALIŞIR</a>
+                    <a href="bayi.html">BAYİLİK BAŞVURUSU</a>
+                    <a href="dokuman.html">DÖKÜMANLAR</a>
+                    <a href="destek.html">DESTEK</a>
+                    <a href="iletisim.html">İLETİŞİM</a>
+                </div>
+                <div class="reach-us">
+                    <h2>İletişime Geçin</h2>
+                    <p class="peace">Güvenliğiniz ve huzur için</p>
+                    <a href="iletisim.html" target="_blank" class="btn">İLETİŞİME GEÇİN</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <div class="end">
+            <p>© 2020 accountalarmmerkezi.com - Tüm Hakları Saklıdır.</p>
+            <p><a href="#" aria-label="Bu sitenin tasarımı Erkan Kurtcu tarafından yapılmıştır">Design By</a> Erkan Kurtcu</p>
+        </div>
+    <script src="iletisimscript.js" defer></script>
+</body>
+
+</html>
