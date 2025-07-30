@@ -188,7 +188,7 @@ h1.sirket{
     text-align: center;
     position: relative;
     max-width: 1200px;
-    margin-left: 2rem;
+    margin-right: 36rem;
 }
 .title{
     display: flex;
@@ -200,7 +200,8 @@ h1.sirket{
     padding: 3rem;
     width: 100%;
     margin: 0 auto;
-    max-width:1200px;
+    max-width: 1200px;
+    margin-top: 1rem;
 }
 .maininfo h2,h3{
     color: rgb(44, 53, 82);
@@ -385,6 +386,9 @@ main{
     display: none;
 }
 @media (max-width:1500px){
+    h1.sirket{
+        margin: 0 auto;
+    }
     .sirket-entry{
         justify-content: start;
     }
@@ -413,6 +417,10 @@ main{
     }
 }
 @media (max-width:990px){
+    h1.sirket{
+        margin: 0 auto;
+        margin-left: 1rem;
+    }
     .infobox{
         margin-left: 7rem;
         margin-top: 2rem;
