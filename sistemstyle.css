@@ -200,6 +200,7 @@ h1.sirket{
     padding: 3rem;
     width: 100%;
     margin: 0 auto;
+    max-width:1200px;
 }
 .maininfo h2,h3{
     color: rgb(44, 53, 82);
